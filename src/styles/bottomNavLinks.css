@@ -1,0 +1,18 @@
+.bottomNavbarLinks .bottomNlinks ul li:hover {
+   color: #088178;
+}
+
+.bottomNavbarLinks .bottomNlinks ul{
+    margin-left: 30px;
+}
+
+
+
+/* .navDropLink .navDropList{
+  /* display:none; */
+
+
+
+.navDropLink:hover > .navDropList{
+   display: block;
+}

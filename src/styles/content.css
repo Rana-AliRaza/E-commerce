@@ -1,0 +1,76 @@
+.featureCards{
+    border: 1px solid rgb(220, 215, 215);
+}
+
+.css-1og0dba{
+ display: none!important;
+}
+
+.productMoreLink{
+    border-bottom: 2px solid #dbdede;
+    color: #088178;
+}
+
+.productsTypeBtn .productBtn{
+    background-color: #EEEEEE;
+
+}
+
+.productsTypeBtn .productBtn:active,
+.productsTypeBtn .productBtn:hover  {
+    background-color: #FDE1BD;
+    color: #088178;
+    transform: scale(0.95);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.productCards .productCardItems{
+    border: 1px solid rgb(222, 217, 217);
+    position: relative;
+}
+
+.productRates .cartIcon{
+    border: 1px solid rgb(222, 217, 217);
+    background-color: rgb(203, 215, 214);
+    color: #409892;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.productRates .cartIcon:hover{
+    background-color: #088178;
+    color: white;
+
+}
+
+.bannerBtn{
+    background-color: #088178;
+}
+
+.bannerBtn:hover{
+    background-color: #05544e;
+}
+
+.multiCarouselItem{
+    border: 1px solid #b2c2c0;
+}
+
+.dealEndBtn{
+    border: 2px solid #088178;
+    
+}
+
+.dealsHeading{
+    border-bottom: 1px solid rgb(222, 234, 234);
+}
+
+.dealsOutletBorder{
+  border-bottom: 2px solid #088178;
+  padding-bottom: 4px;
+}
+
+ /* .react-multiple-carousel__arrow {
+     top: 0 !important; 
+    }  */

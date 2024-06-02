@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Spartan:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.main{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+.topNavbar{
+    background-color: #d8f4e2;
+    border-bottom: 3px solid #088178;
+}
+.topNavbarItems{
+    padding: 10px 20px;
+}
+
+.topNavbarItem1{
+    border-right: 1px solid #9faea5;
+    padding-right: 10px;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0.6rem;
+    /* position: fixed; */
+    min-width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+.navLinks{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     align-items: baseline;
+     gap: 20px;
+     margin-right: 0;
+}
+
+.navLink{
+    position: relative;
+}
+
+.navLinkLabel{
+    background-color: #088178;
+}
+
+.carouselSlider{
+    padding-top: 70px;
+    height: 70vh;
+    padding: 20rem;
+    width: 100%;
+    height: 70vh;
+}
+/* .navDropList{
+    display: block;
+} */
+
+.navDropList{
+    display: none;
+    top: 10px;
+    left: 0;
+    padding: 1rem; /* Adjust padding as needed */
+    background-color: #f9f9f9;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.navDropBtn:hover .navDropList {
+    display: block;
+}
+
+.navDropBtn{
+    border-right: 1px solid #9faea5;
+    padding-right: 6px;
+}
+
+.navDropList a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+
+.searchBar{
+    display: flex;
+    border-bottom: 2px solid #414648;
+    column-gap: 10px;
+}
+
+.searchBar input:focus{
+ outline: none;
+}
+
+ /* .control-prev::before {  /* General styles for both arrows */
+    /* color: red !important; */
+    /* border: 4px solid red !important;  */
+    /* height: 40px !important; */
+    /* color: red !important;
+    border: 2px solid red !important;
+    height: 20px !important; */
+  /* } */
+ /* .control-arrow:hover{ */
+   background-color: transparent !important;
+ /* } */
+ /* .control-arrow control-prev */
+
+ .promoBanner{
+    background-image: url("../assets/pics/promoBanner.webp");
+ }

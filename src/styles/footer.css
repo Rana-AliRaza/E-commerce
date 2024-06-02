@@ -1,0 +1,36 @@
+.footerMail{
+    background-color: #AECCC5;
+    
+}
+
+/* .footerMailImg{
+} */
+
+.inputEmail{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: larger;
+
+
+}
+
+.inputEmail:focus{
+    outline: none;
+}
+.emailSubcribeBtn{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: flex;
+    justify-items: center;
+    background-color: rgb(56, 50, 50);
+    color: rgb(220, 214, 214);
+}
+
+.appsImg{
+    border: 1px solid #088178;
+    border-radius: 5px;
+}
+
+.footerPart{
+    border-bottom: 1px solid rgb(228, 223, 223);
+}
